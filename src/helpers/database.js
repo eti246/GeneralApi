@@ -4,7 +4,7 @@ import chalk from 'chalk';
 // Code pour accèder à la base de données
 export default app => {
 
-    const url = process.env.DATABASE;
+    /*const url = process.env.DATABASE;
     console.log(url);
     console.log(chalk.green(`[MONGO] - Establish new connection with url: ${url}`));
     mongoose.Promise = global.Promise;
@@ -13,8 +13,8 @@ export default app => {
     mongoose.set('useCreateIndex', true);
     mongoose.set('useUnifiedTopology', true);
 
-    // connection à la base de données
-    //mongoose.connect(url).then(
-     //   () => { console.log(chalk.green(`[MONGO] - Connected to: ${url}`)); }
-  // );
+    //connection à la base de données
+    mongoose.connect(url).then(
+        () => { console.log(chalk.green(`[MONGO] - Connected to: ${url}`)); }
+ );*/
 }
